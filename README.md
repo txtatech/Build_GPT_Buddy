@@ -6,20 +6,26 @@ Export and download your data.
 Copy the conversations.json into the extracted folder.
 
 Run the 'chat_to_text.py' script to convert 'conversations.json' into 'all_conversations.txt'  
- 
+
+~~~ 
 python3 chat_to_text.py
+~~~
 
 Next run the 'qros-builder-lite-encode.py' script to encode and compress 'all_conversations.txt'.
 
 This step also generates a JSON file named 'data_chunks.json' located in the builder/chunks folder.
 
+~~~
 python3 qros-builder-lite-encode.py
+~~~
 
 To decode the 'data_chunks.json' JSON file run the 'qros-builder-lite-decode.py' script.
 
 This step will also output a text file named 'all_conversations.txt' in the folder builder/decoded folder.
 
+~~~
 python3 qros-builder-lite-decode.py
+~~~
 
 That is it!
 
