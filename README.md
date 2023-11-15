@@ -21,7 +21,7 @@ python3 qros-builder-lite-encode.py
 
 To decode the 'data_chunks.json' JSON file run the 'qros-builder-lite-decode.py' script.
 
-This step will also output a text file named 'all_conversations.txt' in the folder builder/decoded folder.
+This step will also output a text file named 'all_conversations.txt' in the builder/decoded folder.
 
 ~~~
 python3 qros-builder-lite-decode.py
