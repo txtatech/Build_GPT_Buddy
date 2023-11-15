@@ -3,7 +3,7 @@ Inside the Builder interface for custom GPT models use the following to add the 
 
 Export and download your data.
 
-Copy the conversations.json into the extracted folder.
+Copy the 'conversations.json' file into the extracted folder.
 
 Run the 'chat_to_text.py' script to convert 'conversations.json' into 'all_conversations.txt'  
 
