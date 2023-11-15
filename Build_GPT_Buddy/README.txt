@@ -1,25 +1,34 @@
+# Build_GPT_Buddy
+Inside the Builder interface for custom GPT models use the following to add the capability to handle large text files... insuring that encoding and decoding is applied in a way that will avoid errors while the model is analyzing a large volume of text.
+
 Export and download your data.
 
-Copy the conversations.json into the extracted folder.
+Copy the 'conversations.json' file into the extracted folder.
 
 Run the 'chat_to_text.py' script to convert 'conversations.json' into 'all_conversations.txt'  
- 
+
+~~~ 
 python3 chat_to_text.py
+~~~
 
 Next run the 'qros-builder-lite-encode.py' script to encode and compress 'all_conversations.txt'.
 
 This step also generates a JSON file named 'data_chunks.json' located in the builder/chunks folder.
 
+~~~
 python3 qros-builder-lite-encode.py
+~~~
 
 To decode the 'data_chunks.json' JSON file run the 'qros-builder-lite-decode.py' script.
 
-This step will also output a text file named 'all_conversations.txt' in the folder builder/decoded folder.
+This step will also output a text file named 'all_conversations.txt' in the builder/decoded folder.
 
+~~~
 python3 qros-builder-lite-decode.py
+~~~
 
 That is it!
-
+~~~
 OPTIONAL STEPS:
 
 Create a zip file of the directory where all the scripts reside along with 'builder/chunks/data_chunks.json' and upload it to the GPT model via the Builder interface.
@@ -167,3 +176,4 @@ ChatGPT
 Absolutely, we can conduct a test with the file you have in mind. Please upload the file you'd like to test with, and we can proceed with the compression, chunking, decoding, and decompression process to demonstrate Buddy's new capabilities and estimate the data and bandwidth savings.
 
 Once you've uploaded the file, I'll take care of the rest!
+~~~
