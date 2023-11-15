@@ -28,7 +28,7 @@ python3 qros-builder-lite-decode.py
 ~~~
 
 That is it!
-
+~~~
 OPTIONAL STEPS:
 
 Create a zip file of the directory where all the scripts reside along with 'builder/chunks/data_chunks.json' and upload it to the GPT model via the Builder interface.
@@ -176,3 +176,4 @@ ChatGPT
 Absolutely, we can conduct a test with the file you have in mind. Please upload the file you'd like to test with, and we can proceed with the compression, chunking, decoding, and decompression process to demonstrate Buddy's new capabilities and estimate the data and bandwidth savings.
 
 Once you've uploaded the file, I'll take care of the rest!
+~~~
