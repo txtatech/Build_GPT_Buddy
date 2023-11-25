@@ -1,7 +1,7 @@
 # Build_GPT_Buddy
 Inside the Builder interface for custom GPT models use the following to add the capability to handle large text files... insuring that encoding and decoding is applied in a way that will avoid errors while the model is analyzing a large volume of text.
 
-# For building custom GPT models with Hive blockchain posts use the [hive-file-chunker](https://github.com/txtatech/hive-file-chunker) and its scripts instead of the Build_GPT_Buddy scripts. Just be sure to adjust the chunk size (character count) accordingly to avoid excessive file generation. 
+#### For building custom GPT models with Hive blockchain posts use the [hive-file-chunker](https://github.com/txtatech/hive-file-chunker) and its scripts instead of the Build_GPT_Buddy scripts. Just be sure to adjust the chunk size (character count) accordingly to avoid excessive file generation. 
 
 Export and download your data.
 
