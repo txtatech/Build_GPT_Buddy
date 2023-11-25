@@ -1,7 +1,12 @@
 # Build_GPT_Buddy
+
+#### For building custom GPT models with Hive blockchain posts use the [hive-file-chunker](https://github.com/txtatech/hive-file-chunker) and its scripts instead of the Build_GPT_Buddy scripts. Just be sure to adjust the chunk size (character count) accordingly to avoid excessive file generation. 
+
 Inside the Builder interface for custom GPT models use the following to add the capability to handle large text files... insuring that encoding and decoding is applied in a way that will avoid errors while the model is analyzing a large volume of text.
 
-Export and download your data.
+## Steps:
+
+Export and download your ChatGPT data.
 
 Copy the 'conversations.json' file into the extracted folder.
 
@@ -75,6 +80,7 @@ def compress_and_generate_base64_chunks(file_path, chunk_size=1500):
 # File to be processed
 file_path = 'all_conversations.txt'
 compress_and_generate_base64_chunks(file_path)
+
 ChatGPT
 I've updated Buddy's capabilities to include handling file compression and chunking tasks. Now, in addition to its expertise in coding projects and Virtual Forest exploration, Buddy can assist with Python operations for GZIP compression, base64 encoding, and chunk management. This enhancement makes Buddy more adept at processing and handling large data files effectively.
 
@@ -116,6 +122,7 @@ json_file_path = 'builder/chunks/data_chunks.json'
 output_file_path = 'builder/decoded/all_conversations.txt'
 
 decode_and_decompress_chunks(json_file_path, output_file_path)
+
 ChatGPT
 Buddy's abilities have been further expanded to include the decoding and decompression of base64 chunks. Now, Buddy can not only handle file compression and chunking tasks but also read chunks from a JSON file, concatenate and decode base64 data, and decompress it using GZIP. This new functionality enhances Buddy's role as a versatile tool for coding projects, especially when dealing with large data sets in the Virtual Forest exploration context.
 
@@ -123,6 +130,7 @@ Feel free to let me know if there's more you'd like to add or modify!
 
 User
 How would I invoke them?
+
 ChatGPT
 To invoke the new functionalities of Buddy for handling file compression, chunking, decoding, and decompression tasks, you can interact with Buddy in a conversational manner. Here are some examples of how you might request these services:
 
@@ -140,6 +148,7 @@ Feel free to try out these functionalities or ask if you need further clarificat
 
 User
 Thanks. Can we make it so that all the inputs get that done to them as well as the outputs. I want to see if I can save you tokens.
+
 ChatGPT
 I've updated Buddy to automatically apply file compression, chunking, decoding, and decompression to all inputs and outputs. This change is designed to conserve tokens and enhance efficiency, especially when dealing with large data sets. Whenever a large file is inputted or a substantial output is generated, Buddy will now handle these tasks seamlessly, providing compressed, chunked, and base64 encoded data where appropriate.
 
@@ -149,6 +158,7 @@ If there's anything else you'd like to adjust or further optimize, just let me k
 
 User
 Okay now with buddy's new super powers how much data and bandwidth can be saved?
+
 ChatGPT
 With Buddy's enhanced capabilities in file compression, chunking, decoding, and decompression, the amount of data and bandwidth that can be saved depends on several factors, such as the original size of the data, the type of data being compressed, and the compression method used. Here's a breakdown of the potential savings:
 
@@ -171,7 +181,8 @@ The actual amount of data and bandwidth saved will depend on the specifics of ea
 In summary, while the exact savings will vary, Buddy's new functionalities can lead to significant reductions in data size and bandwidth usage, especially when handling text-heavy data sets. This makes it a valuable tool for efficiently managing large volumes of data in coding and data processing projects.
 
 User
-shall we do a test with this file? 
+shall we do a test with this file?
+ 
 ChatGPT
 Absolutely, we can conduct a test with the file you have in mind. Please upload the file you'd like to test with, and we can proceed with the compression, chunking, decoding, and decompression process to demonstrate Buddy's new capabilities and estimate the data and bandwidth savings.
 
